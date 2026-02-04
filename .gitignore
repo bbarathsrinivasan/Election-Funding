@@ -53,6 +53,7 @@ date_group_token_output/
 # Note: donor_segmentation_diagrams/ is explicitly tracked for README
 !donor_segmentation_diagrams/
 !donor_segmentation_diagrams/*.png
+!donor_segmentation_diagrams/*.csv
 
 # Generated Statistics
 donor_segment_statistics.csv
