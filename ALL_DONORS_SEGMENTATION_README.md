@@ -255,14 +255,25 @@ Detailed statistics for all segments are saved in `all_donors_segment_statistics
 
 | Metric | Small | Medium | Large |
 |--------|-------|--------|-------|
-| Count | Count of small donors | Count of medium donors | Count of large donors |
-| % of Donors | Percentage contribution to total donor count | | |
-| Total Donated | Total $ from segment | Total $ from segment | Total $ from segment |
-| % of Total $ | Percentage of all donations | | |
-| Average | Mean donation per donor | | |
-| Median | Middle donation value | | |
-| Min/Max | Range of donations | | |
-| Avg # Donations | Average frequency per donor | | |
+| **Count** | 1,260,398 | 1,310,187 | 1,201,005 |
+| **% of Donors** | 33.42% | 34.74% | 31.84% |
+| **Total Donated** | $162,682,076 | $756,590,311 | $16,893,759,855 |
+| **% of Total $** | 0.91% | 4.25% | 94.84% |
+| **Average** | $129.07 | $577.47 | $14,066.35 |
+| **Median** | $111.00 | $500.00 | $2,750.00 |
+| **Min** | $1.00 | $251.00 | $1,001.00 |
+| **Max** | $250.00 | $1,000.00 | $317,239,436.00 |
+| **Std Dev** | $75.88 | $228.90 | $560,740.17 |
+| **Avg # Donations** | 3.43 | 8.46 | 45.96 |
+
+### Key Observations from Statistics:
+
+- **Small Donors**: 33.42% of all donors contribute only 0.91% of total funding
+- **Medium Donors**: 34.74% of all donors contribute 4.25% of total funding
+- **Large Donors**: 31.84% of all donors contribute 94.84% of total funding (nearly all funding!)
+- **Engagement Pattern**: Large donors donate ~13x more frequently than Small donors (45.96 vs 3.43 donations)
+- **Max Donation**: A single large donor contributed $317,239,436 - representing extreme concentration at the top
+- **Median Gap**: The difference between average and median is largest for Large segment ($14,066 vs $2,750), indicating presence of mega-donors |
 
 ---
 
