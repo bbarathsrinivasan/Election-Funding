@@ -50,9 +50,9 @@ data_segment_output/
 date_group_token_output/
 
 # Generated Visualizations (but keep the folder structure)
-*.png
-*.jpg
-*.jpeg
+# Note: donor_segmentation_diagrams/ is explicitly tracked for README
+!donor_segmentation_diagrams/
+!donor_segmentation_diagrams/*.png
 
 # Generated Statistics
 donor_segment_statistics.csv
