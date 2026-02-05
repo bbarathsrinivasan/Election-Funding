@@ -83,4 +83,4 @@ dmypy.json
 Thumbs.db
 
 US_Election_Donation.csv
-data
+datadonation_time_series_data/processed_donations.csv
